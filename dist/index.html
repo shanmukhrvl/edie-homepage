@@ -7,29 +7,36 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <div class="container">
-      <header class="header">
-        <h1 class="header__title">Edie</h1>
-      </header>
-      <section class="main">
-        <p>Unhappy with your website?</p>
-        <h1>We create beautiful and fast web services</h1>
-        <img src="" alt="" />
-        <h1>Story, emotion and purpose</h1>
-        <p>
+    <header class="header">
+      <h1 class="header__title">Edie</h1>
+    </header>
+
+    <section class="hero">
+      <div class="container hero__section-1">
+        <p class="hero__text hero__question">Unhappy with your website?</p>
+        <h1 class="hero__title">We create beautiful and fast web services</h1>
+      </div>
+
+      <div class="hero__img">
+        <img src="images/heroImage.jpg" alt="" />
+      </div>
+
+      <div class="container hero__section-2">
+        <h1 class="hero__title">Story, emotion and purpose</h1>
+        <p class="hero__text">
           We help transform your ideas into real world applications that will
           outperform your toughest competition and help you achieve your
           strategic goals in short period of time.
         </p>
 
-        <div class="main__contact">
+        <div class="hero__contact">
           <label for="email">Want us to contact you?</label>
-          <span>
+          <span class="input">
             <input type="email" id="email" />
-            <input type="submit" value="Join" />
+            <input type="submit" value="Join" class="btn__submit" />
           </span>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   </body>
 </html>

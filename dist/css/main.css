@@ -1,1 +1,111 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.header__title {
+  margin: 0.8rem 0;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+.hero {
+  margin-top: 3rem;
+}
+
+.hero__text {
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+}
+
+.hero__title {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+.hero__question {
+  margin-bottom: 0;
+}
+
+.hero__question + .hero__title {
+  margin-top: 0;
+}
+
+.hero__section-1 .hero__text {
+  color: blue;
+}
+
+.hero__section-2 .hero__text {
+  margin: 2rem 0;
+}
+
+.hero__section-2 .hero__title {
+  margin: 1.375rem 0 0 0;
+}
+
+.hero__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero__contact label {
+  font-size: 0.625rem;
+  line-height: 0.9375rem;
+}
+
+.hero__contact .input {
+  margin-top: 0.35rem;
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero__contact .input input:focus {
+  outline: none;
+}
+
+.hero__contact .input #email {
+  font-size: 0.875rem;
+  border: none;
+  margin: 1em;
+}
+
+.hero__contact .input .btn__submit {
+  margin: 0;
+}
+/*# sourceMappingURL=main.css.map */
